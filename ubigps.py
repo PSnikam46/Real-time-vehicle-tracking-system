@@ -3,8 +3,8 @@ import time
 from ubidots import ApiClient
 session = gps.gps("127.0.0.1", "2947")
 session.stream(gps.WATCH_ENABLE | gps.WATCH_NEWSTYLE)
-api = ApiClient(token='BBFF-JpZNxID9deZz3frfDC3hL83oH88YD5')
-variable = api.get_variable('5d7a828b1d84721de0afe8f3')
+api = ApiClient(token='abc')
+variable = api.get_variable('xyz')
 
 while True:
 	try:
